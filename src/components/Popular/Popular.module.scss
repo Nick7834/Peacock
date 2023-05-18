@@ -1,0 +1,42 @@
+.popular {
+
+    .popularTop {
+       margin: 30px 0 25px;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+    }
+
+    .title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+
+        color: #DCDCDC;
+    }
+
+    .films {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .button {
+        display: flex;
+        gap: 5px;
+        border: 0;
+        background: 0;
+
+        span {
+            width: 6px;
+            height: 6px;
+            border-radius: 100px;
+            background-color: white;
+        }
+    }
+
+    .buttonMore {
+       margin-top: 16px;
+    }
+
+}

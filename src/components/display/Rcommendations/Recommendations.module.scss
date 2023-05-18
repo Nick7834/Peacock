@@ -1,0 +1,15 @@
+.recommendations {
+    position: sticky;
+    top: 0;
+
+    padding: 22px 48px 19px 38px;
+    width: 348px;
+    height: 100vh;
+    background-color: hsl(0, 13%, 10%);
+
+    overflow-y: auto;
+
+    &::-webkit-scrollbar {
+        width: 0; 
+    }
+}

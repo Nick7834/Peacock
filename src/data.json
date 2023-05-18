@@ -1,0 +1,34 @@
+{
+    "films": [
+      {
+        "photos": "https://www.kino-teatr.ru/movie/posters/big/0/104360.jpg"
+      },
+      {
+        "photos": "https://www.soyuz.ru/public/uploads/files/3/7387677/201908021157563daa9e1822.jpg"
+      },
+      {
+        "photos": "https://ithinker.ru/static/images/film/7/82325.jpg"
+      },
+      {
+        "photos": "https://www.film.ru/sites/default/files/styles/thumb_260x400/public/movies/posters/7743861-1002699.jpg"
+      },
+      {
+        "photos": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/87298984-6286-425f-ab61-9afbf2c78afb/600x900"
+      },
+      {
+        "photos": "https://peterburg2.ru/uploads/16/05/30/o_602749.jpg"
+      },
+      {
+        "photos": "https://s2.afisha.ru/mediastorage/41/d6/5738b4ec97d64755bfab0601d641.png"
+      },
+      {
+        "photos": "https://media.kg-portal.ru/movies/m/moonfall/posters/moonfall_4.jpg"
+      },
+      {
+        "photos": "https://resizer.mail.ru/p/d5448808-e3b7-5220-b4b7-430605fa3440/AQACIv2XEmNJtW-RG6soRvQU7lgykIpbmhdBqT2KrwfKJJQ_2nsVaAtcWh_5hUQvCSFuFwzvnAWWjUwRRgQR31koTJM.jpg"
+      },
+      {
+        "photos": "https://www.film.ru/sites/default/files/movies/posters/33906726-1116255.jpg"
+      }
+    ]
+}

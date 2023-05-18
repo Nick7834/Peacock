@@ -1,0 +1,26 @@
+.film {
+   cursor: pointer;
+   padding: 19px 12px 15px 12px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+
+    .pluse {
+        display: flex;
+        justify-content: end;
+    }
+
+    .now, .pluse {
+      visibility: hidden;
+      opacity: 0;
+      transition: all .3s ease-in;
+    }
+
+    &:hover {
+        .now, .pluse {
+            visibility: visible;
+            opacity: 1;
+          }
+    }
+
+}

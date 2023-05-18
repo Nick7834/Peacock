@@ -1,0 +1,162 @@
+.header {
+    margin: 19px 0 23px;
+
+     ul {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .link {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        
+        color: #DCDCDC;          
+    }
+
+}
+
+.main {
+    max-width: 777px;
+    width: 100%;
+
+    .banner {
+        padding: 47px 49px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+
+        border-radius: 12px;
+    }
+
+    .title {
+        margin: 9px 0 12px;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 46px;
+
+        color: #FFFFFF;
+    }
+
+    .text {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 14px;
+
+        color: #FFFFFF;        
+    }
+
+    .buttons {
+        margin-top: 20px;
+        display: flex;
+        gap: 10px;
+    }
+}
+
+@mixin button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+
+    border: 1px solid white;
+    border-radius: 50%;
+    background: 0;
+
+    transition: all .4s ease-in-out;
+
+        &::after {
+            content: '';
+            display: block;
+            background-image: url('./public/sliderButton.svg');
+            width: 7px;
+            height: 12px;
+            pointer-events: none;
+        }
+
+        &:hover {
+            background: rgb(218, 218, 218, .19);
+        }
+}
+
+.films {
+    margin-bottom: 33px;
+
+    .filmTop {
+        margin: 30px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .plays {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+
+        color: #DCDCDC;       
+    }
+
+    // slider button 
+
+    .array {
+       display: flex;
+       align-items: center;
+       gap: 20px;
+    }
+
+    .slidersNext, .slidersPrev {
+        @include button
+    }
+
+    .slidersNext {
+
+            &::after {
+                content: '';
+                transform: rotate(-180deg);
+            }
+    }
+
+}
+
+.categories {
+    margin-bottom: 28px;
+
+    .categTop {
+        margin: 30px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .plays {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+
+        color: #DCDCDC;       
+    }
+
+    .array {
+       display: flex;
+       align-items: center;
+       gap: 20px;
+    }
+
+    .slidersNext, .slidersPrev {
+        @include button
+    }
+
+    .slidersNext {
+
+        &::after {
+            content: '';
+            transform: rotate(-180deg);
+        }
+}
+
+}

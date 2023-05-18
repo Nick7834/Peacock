@@ -1,0 +1,17 @@
+.buttonNow {
+    padding: 13px 42px;
+    background: rgba(235, 28, 36, 0.7);
+    border-radius: 8px;
+    border: 0;
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+
+    transition: all .5s ease-in-out;
+
+        &:hover {
+            background: rgba(154, 41, 45, 0.7);
+        }
+}

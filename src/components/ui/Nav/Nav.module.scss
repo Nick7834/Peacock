@@ -1,0 +1,52 @@
+.nav {
+    margin-top: 29px;
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+
+    > ul {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .categories {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+        color: #DCDCDC;        
+    }
+
+    .link {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+
+        color: #DCDCDC;
+    }
+
+    .active {
+        display: flex;
+        align-items: center;
+        position: relative;
+        
+        .link {
+            color: #EB1C24;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            right: -43%;
+            width: 5px;
+            height: 30px;
+            background: #EB1C24;
+            border-radius: 10px 0px 0px 10px;
+        }
+    }
+
+}

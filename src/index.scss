@@ -1,0 +1,8 @@
+@import './global/global';
+@import './font/font';
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'LucianoDisplay'; 
+}

@@ -1,0 +1,21 @@
+.buttonPluse {
+    padding: 15px;
+    border: 0;
+
+    background: rgba(248, 224, 225, 0.9);
+    border-radius: 8px;
+
+    transition: all .5s ease-in-out;
+
+        &::after {
+            content: '';
+            background: url('./public/pluse.svg');
+            display: block;
+            width: 14px;
+            height: 14px;
+        }
+
+        &:hover {
+            background: rgba(255, 255, 255, 0.9);
+        }
+}

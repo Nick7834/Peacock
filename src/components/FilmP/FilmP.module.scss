@@ -1,0 +1,51 @@
+.film {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+
+        .titleBlock {
+          margin-bottom: 6px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 40px;
+        }
+
+        .name, .genre, .num {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 18px;
+
+            color: #FFFFFF;
+        }
+
+        .genre {
+            font-size: 14px;
+        }
+
+        .num {
+            color: #8C8C8C;
+        }
+
+        .ratingBlock {
+            margin-top: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 18px;
+
+            text-transform: uppercase;
+
+            color: #FFFFFF;
+        }
+
+        .rating {
+           color: rgb(89, 238, 89);
+        }
+
+
+}
